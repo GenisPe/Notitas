@@ -1,0 +1,57 @@
+:root {
+  color: rgb(0, 0, 0);
+  background-image: url('https://images.unsplash.com/photo-1511649475669-e288648b2339?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+}
+.contenedorPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+#InpText {
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+.listaNotas {
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.nota {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+button {
+  color: rgba(255, 3, 3, 0.482);
+  background: none;
+  border: 2px solid rgba(255, 3, 3, 0.482);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.contadorNotas {
+  border: 2px solid rgba(0, 0, 0, 0.277);
+  border-radius: 10px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
